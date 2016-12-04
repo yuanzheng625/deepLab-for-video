@@ -1,5 +1,5 @@
 ## DeepLab for Video Semantic Segmentation
-![sample](image.png)
+![sample](Image.png)
 This code is edited from DeepLab (a python wraper version https://github.com/TheLegendAli/DeepLab-Context) by Zheng Yuan. It enables the single image semantic segmentation algorithm in orginal DeepLab to be applied for video use. 
 
 Basically, the video segmentation can be seen as two-adjacent-image-together segmentation with temporal constrain in CRF. 
