@@ -1,6 +1,9 @@
 ## DeepLab for Video Semantic Segmentation
 ![sample](Image.png)
-This code is edited from DeepLab (a python wraper version https://github.com/TheLegendAli/DeepLab-Context) by Zheng Yuan. It enables the single image semantic segmentation algorithm in orginal DeepLab to be applied for video use. 
+
+The benefit of video segmentation over single image segmentation is that temporal information can be ultilized to localize the  appearence-challenging but semantic-consistent parts of an object. That is why there are two tires detected in image E while only one for both image C and D.
+
+This code is edited from DeepLab (a python wraper version https://github.com/TheLegendAli/DeepLab-Context) by Zheng Yuan. It enables the single image semantic segmentation algorithm (orginal DeepLab) to be applied for video use. 
 
 Basically, the video segmentation can be seen as two-adjacent-image-together segmentation with temporal constrain in CRF. 
 
